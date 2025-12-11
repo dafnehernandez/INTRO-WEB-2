@@ -6,24 +6,30 @@ Esto es mucho de orientación a detalle. -->
 No olvides colocar un comentario por cada cosa que modifiques-->
 
 <!DOCTYPE html>
-<html lang="en"> <!--Ejemplo: Faltaban comillas en el valor del atributo-- >
+<html lang="en"> <!--Ejemplo: Faltaban comillas en el valor del atributo -->
 <head>
-<meta charset=”UTF-65”>
-<meta name="viewport" content="Ejercicio HTML - Corrige los errores">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta charset=”UTF-65”> <!-- Movi los meta porque la identacion era incorrecta -->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0"> 
+    <!-- elimine:   <meta name="viewport" content="Ejercicio HTML - Corrige los errores">  -->
+    <!-- porque content era incorrecto -->
+    <title>World Wide Web</title> <!-- Movi title ya que estaba debajo del head -->
 </head>
-<title>World Wide Web</title>
+
 <body>
 
-<h1>World Wide Web</h1>
+    <h1>World Wide Web</h1> <!-- Movi H1 por identacion -->
 
-<p>
-En informática, la <strong>World Wide Web<strong> (WWW) o red informática mundial comúnmente conocida como la web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.
+    <p>
+    <!-- Faltaba cerrar la etiqueta de strong sino crece todo -->
+    En informática, la <strong>World Wide Web</strong> (WWW) o red informática mundial comúnmente conocida como la web, es un sistema de distribución de documentos de hipertexto o hipermedios interconectados y accesibles vía Internet. Con un navegador web, un usuario visualiza sitios web compuestos de páginas web que pueden contener texto, imágenes, vídeos u otros contenidos multimedia, y navega a través de esas páginas usando hiperenlaces.
+    </p>  <!-- Faltaba cerrar la etiqueta de parrafo -->
 
-<h2>Historia<h2>
+    <h2>Historia</h2> <!-- Faltaba cerrar la etiqueta de H2 -->
 
-<p>
-La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee con la ayuda del belga Robert Cailliau mientras trabajaban en el <em>CERN en Ginebra, Suiza, y publicado en 1992.
-</p>
+        <p> La web se desarrolló entre marzo de 1989 y diciembre de 1990 por el inglés Tim Berners-Lee con la ayuda del belga Robert Cailliau mientras trabajaban en el   <em>CERN</em> en Ginebra, Suiza, y publicado en 1992. <!-- Faltaba cerrar la etiqueta de em -->
+        </p>
 
-<p>Fuente: <em>Wikipedia</p></em>
+    <p>Fuente: <em>Wikipedia</em></p> <!-- la etiqueta de cierra estaba despues de p, eso era un error -->
+
+</body> <!-- Faltaba cerrar la etiqueta de body  -->
+</html> <!-- Faltaba cerrar la etiqueta de HTML  -->
