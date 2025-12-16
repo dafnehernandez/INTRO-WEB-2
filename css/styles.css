@@ -75,3 +75,27 @@ h1::first-letter{
 .petal:nth-child(8) { 
     left: 60%; animation-duration: 16s; 
 }
+
+.card {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+
+  box-shadow: 0 10px 30px rgba(216, 27, 96, 0.2);
+  backdrop-filter: blur(6px);
+}
+
+.card h2,
+.card h3 {
+  color: var(--color-de-titulos);
+  margin-bottom: 1rem;
+}
+
+.card p,
+.card li {
+  color: #374151;
+  line-height: 1.6;
+}
